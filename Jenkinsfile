@@ -1,7 +1,7 @@
 node
  {
   
-  def mavenHome = tool name: "maven3.6.2"
+  def mavenHome = tool name: "maven3.6.8"
   
       echo "GitHub BranhName ${env.BRANCH_NAME}"
       echo "Jenkins Job Number ${env.BUILD_NUMBER}"
@@ -43,7 +43,7 @@ node
  
  stage('EmailNotification')
  {
- mail bcc: 'mylandmarktech@gmail.com', body: '''Build is over
+ mail bcc: 'precious.ayoka36@gmail.com', body: '''Build is over
 
  Thanks,
  Landmark Technologies,
