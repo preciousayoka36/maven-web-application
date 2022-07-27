@@ -103,7 +103,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://18.222.203.69:8000/repository/btc-snapshot/url>
+	      <url>http://18.222.203.69:8000/repository/btc-snapshot</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
